@@ -9,17 +9,27 @@ body {
   padding-top: 10px;
 }
 
-.top-container > h1,
+h1,
+h2,
 p {
   margin: 0;
   padding: 10px;
   /*もしこれを設定したら、centerでなくなる width: 10%; */
   color: rgb(94, 94, 94);
+  font-family: 'Quicksand', sans-serif;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+.middle-container {
+  background-color: darkseagreen;
+}
+
+.middle-container h2:first-of-type {
+  color: darkred;
 }
 
 .aqua-box {
@@ -36,6 +46,7 @@ img {
   display: inline-block;
   height: 200px;
   width: 200px;
+  position: relative;
 }
 
 .red-box {
@@ -45,4 +56,11 @@ img {
   display: inline-block;
   position: relative;
   right: 6px;
+}
+
+.box-p {
+  color: azure;
+  font-size: 20px;
+  position: absolute;
+  top: 75px;
 }
