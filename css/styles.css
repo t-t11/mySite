@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  /* tex-align: centerはインライン要素か１００％の幅をもったブロック要素にのみ対応 */
+  text-align: center;
+}
+
+.top-container {
+  background-color: #e5ebb2;
+  padding-top: 10px;
+}
+
+.top-container > h1,
+p {
+  margin: 0;
+  padding: 10px;
+  /*もしこれを設定したら、centerでなくなる width: 10%; */
+  color: rgb(94, 94, 94);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.aqua-box {
+  background-color: aqua;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 6px;
+}
+
+.brown-box {
+  background-color: brown;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+.red-box {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  right: 6px;
+}
