@@ -33,8 +33,9 @@ p {
 }
 
 .mountain {
-  position: relative;
-  top: 6px;
+  margin-bottom: -5px;
+  width: 50%;
+  z-index: 2;
 }
 
 .middle-container {
