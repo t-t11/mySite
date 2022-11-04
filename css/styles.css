@@ -1,4 +1,5 @@
 body {
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   /* tex-align: centerはインライン要素か１００％の幅をもったブロック要素にのみ対応 */
   text-align: center;
@@ -6,7 +7,8 @@ body {
 
 .top-container {
   background-color: #e5ebb2;
-  padding-top: 10px;
+  padding-top: 100px;
+  position: relative;
 }
 
 h1,
@@ -16,20 +18,33 @@ p {
   padding: 10px;
   /*もしこれを設定したら、centerでなくなる width: 10%; */
   color: rgb(94, 94, 94);
-  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  z-index: 2;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+.top-cloud {
+  position: absolute;
+  right: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+}
+
+.mountain {
+  position: relative;
+  top: 6px;
 }
 
 .middle-container {
   background-color: darkseagreen;
+  padding-top: 30px;
 }
 
 .middle-container h2:first-of-type {
   color: darkred;
+  margin-bottom: 20px;
 }
 
 .aqua-box {
@@ -61,6 +76,10 @@ img {
 .box-p {
   color: azure;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   top: 75px;
+}
+
+.cited {
+  font-size: small;
 }
