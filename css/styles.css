@@ -7,7 +7,7 @@ body {
 
 .top-container {
   background-color: #e5ebb2;
-  padding-top: 100px;
+  padding-top: 200px;
   position: relative;
 }
 
@@ -20,6 +20,15 @@ p {
   color: rgb(94, 94, 94);
   position: relative;
   z-index: 2;
+}
+
+.myname {
+  font-size: 4rem;
+  padding-bottom: 0;
+}
+
+.top-container h2 {
+  font-size: 2rem;
 }
 
 .top-cloud {
@@ -53,8 +62,6 @@ p {
   display: inline-block;
   height: 200px;
   width: 200px;
-  position: relative;
-  left: 6px;
 }
 
 .brown-box {
@@ -62,7 +69,6 @@ p {
   display: inline-block;
   height: 200px;
   width: 200px;
-  position: relative;
 }
 
 .red-box {
@@ -70,8 +76,6 @@ p {
   height: 200px;
   width: 200px;
   display: inline-block;
-  position: relative;
-  right: 6px;
 }
 
 .box-p {
@@ -79,6 +83,16 @@ p {
   font-size: 20px;
   position: relative;
   top: 75px;
+}
+
+.profile_img {
+  margin-top: 10px;
+}
+
+.p_img {
+  background-color: rgba(240, 248, 255, 0.866);
+  border-radius: 30%;
+  padding: 20px;
 }
 
 .cited {
