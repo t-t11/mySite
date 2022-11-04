@@ -30,12 +30,12 @@ p {
 .bottom-cloud {
   position: absolute;
   left: 25%;
+  opacity: 0.8;
 }
 
 .mountain {
   margin-bottom: -5px;
   width: 50%;
-  z-index: 2;
 }
 
 .middle-container {
